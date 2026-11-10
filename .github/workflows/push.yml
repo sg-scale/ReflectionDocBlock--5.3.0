@@ -144,7 +144,7 @@ jobs:
           args: install --no-interaction --prefer-dist --optimize-autoloader
 
       - name: PHPStan
-        uses: phpDocumentor/phpstan-ga@0.12.9
+        uses: phpDocumentor/phpstan-ga@1.8
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
